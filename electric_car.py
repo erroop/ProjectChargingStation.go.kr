@@ -7,8 +7,8 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
 
-df = pd.read_csv("./charging station_car.csv", encoding = "cp949")
-df_model = pd.read_csv("./car model.csv", encoding = "cp949")
+df = pd.read_csv("./Data preprocessing/charging station_car.csv", encoding = "cp949")
+df_model = pd.read_csv("./Data preprocessing/car model.csv", encoding = "cp949")
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.SLATE])
 
